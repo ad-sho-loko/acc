@@ -24,4 +24,9 @@ assert() {
 
 assert 0 0
 assert 42 42
+assert 3 1+2
+assert 5 '4 + 1'
+assert 1 2-1
+assert 2 3+1-2
+
 echo All tests OK.
